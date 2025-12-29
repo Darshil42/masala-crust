@@ -2,8 +2,6 @@ import { Navbar } from "@/components/navbar"
 import { MenuSection } from "@/components/menu-section"
 import Image from "next/image"
 
-console.log("[v0] Navbar component type:", typeof Navbar)
-
 export default function Home() {
   return (
     <main className="min-h-screen">
